@@ -1,0 +1,34 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59033",
+      "sslPort": 44369
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "Firebase Admin Key\\beanlancer-auth-firebase-adminsdk-c67aj-5d3adbe763.json",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "OutOfProcess"
+    },
+    "BeanlancerAPI2": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "Firebase Admin Key\\beanlancer-auth-firebase-adminsdk-c67aj-5d3adbe763.json",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "OutOfProcess",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
